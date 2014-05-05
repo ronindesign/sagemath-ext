@@ -1,0 +1,9 @@
+{
+  "name": "SageMath",
+  "version": "0.1",
+  "description": "SageMath Extension for Chrome.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
