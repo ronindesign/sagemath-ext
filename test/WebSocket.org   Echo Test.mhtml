@@ -1,0 +1,1258 @@
+From: <Saved by WebKit>
+Subject: WebSocket.org | Echo Test
+Date: Sat, 9 May 2014 05:14:35 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_6AC3_2101C5FA.5B183909"
+
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.websocket.org/echo.html
+
+<!DOCTYPE html><!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks=
+-answer-neither/ --><!--[if lt IE 7 ]> <html lang=3D"en" class=3D"no-js ie6=
+"> <![endif]--><!--[if IE 7 ]>    <html lang=3D"en" class=3D"no-js ie7"> <!=
+[endif]--><!--[if IE 8 ]>    <html lang=3D"en" class=3D"no-js ie8"> <![endi=
+f]--><!--[if IE 9 ]>    <html lang=3D"en" class=3D"no-js ie9"> <![endif]-->=
+<!--[if (gt IE 9)|!(IE)]><!--><html lang=3D"en" class=3D" js flexbox canvas=
+ canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb=
+ hashchange history draganddrop websockets rgba hsla multiplebgs background=
+size borderimage borderradius boxshadow textshadow opacity cssanimations cs=
+scolumns cssgradients cssreflections csstransforms csstransforms3d csstrans=
+itions fontface video audio localstorage sessionstorage webworkers applicat=
+ioncache svg inlinesvg smil svgclippaths"><!--<![endif]--><head><meta chars=
+et=3D"UTF-8"><style type=3D"text/css"></style>
+ =20
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome =
+Frame=20
+       Remove this if you use the .htaccess -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+
+  <title>WebSocket.org | Echo Test</title>
+  <meta name=3D"description" content=3D"">
+  <meta name=3D"author" content=3D"">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain =
+and delete these references -->
+  <link rel=3D"shortcut icon" type=3D"image/png" href=3D"http://www.websock=
+et.org/img/favicon.png">
+
+  <!-- CSS : implied media=3D"all" -->
+  <link rel=3D"stylesheet" href=3D"http://www.websocket.org/css/style.css?v=
+=3D2">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTM=
+L5 elements & feature detects -->
+ =20
+
+  <!-- For navbar menu -->
+  <!--[if lte IE 7]>
+  <style type=3D"text/css">
+  #menu ul {display:inline;}
+  #ntl-menu ul {filter: alpha(opacity=3D95); filter: progid:DXImageTransfor=
+m.Microsoft.Alpha(opacity=3D95);}
+  </style>
+  <![endif]-->
+
+  <!-- Google analytics -->
+ =20
+
+</head>
+
+<body>
+
+  <div id=3D"container">
+
+    <div id=3D"top">
+   =20
+      <div id=3D"top-logo">
+        <a href=3D"http://www.websocket.org/index.html"><img class=3D"imgWi=
+thTextVerticalCentered" src=3D"http://www.websocket.org/img/logo-top2.png" =
+width=3D"70" height=3D"70" alt=3D"WebSocket.org Logo"></a>
+      </div>
+      <div id=3D"top-heading"> =20
+        <a href=3D"http://www.websocket.org/index.html"><span class=3D"webs=
+iteHeading1">WebSocket.org</span><br><small id=3D"top-heading-byline">Are y=
+ou plugged in?</small></a>
+      </div>
+     =20
+      <div id=3D"top-compat-box">
+        <p>Does your browser<br>support WebSocket?</p>
+        <div id=3D"top-compat-info-box">
+          <div id=3D"top-compat-info">
+            <span id=3D"browserType">Chrome 35</span><br>
+            <span id=3D"platform">Windows</span>
+          </div>
+          <div id=3D"top-compat-image">
+            <a href=3D"http://www.websocket.org/echo.html"><img src=3D"http=
+://www.websocket.org/img/check.png" id=3D"wsSupportImg" alt=3D"" width=3D"2=
+5" height=3D"25" border=3D"0"></a>
+          </div>
+          <div class=3D"clearfix"></div>
+        </div>
+      </div>
+   =20
+    </div>
+
+    <div class=3D"clearfix"></div>
+       =20
+    <div id=3D"nav-top">
+      <ul id=3D"ntl-menu">
+
+	<li class=3D"liTop first single"><a class=3D"top" href=3D"http://www.webso=
+cket.org/index.html">Home</a></li>
+ =20
+	<li class=3D"liTop"><a class=3D"top" href=3D"http://www.websocket.org/demo=
+s.html">Demos<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td nowrap><![endif]-->
+		<ul class=3D"ul-l1">
+
+			<li><a href=3D"http://www.websocket.org/echo.html">Echo Test</a></li>
+			<li><a href=3D"http://www.websocket.org/demos.html">Demos on the Web</a>=
+</li>
+		</ul>
+
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+
+	<li class=3D"liTop single"><a class=3D"top" href=3D"http://www.websocket.o=
+rg/aboutwebsocket.html">All About WebSocket</a></li>
+
+	<li class=3D"liTop single last"><a class=3D"top" href=3D"http://www.websoc=
+ket.org/quantum.html">Benefits of WebSocket</a></li>
+
+	<li class=3D"liTop single last"><a class=3D"top" href=3D"http://www.websoc=
+ket.org/book.html">Book About WebSocket</a></li>
+
+</ul>
+
+    <div id=3D"nav-sponsor">
+      This website powered by <a href=3D"http://kaazing.com/"><img src=3D"h=
+ttp://www.websocket.org/img/nav-sponsor.png" width=3D"93" height=3D"15" alt=
+=3D"Kaazing Logo"></a>
+    </div>
+
+    </div> <!-- #top -->
+   =20
+    <!-- HTML5 Logo -->
+    <div id=3D"html5-logo-outer">
+      <div id=3D"html5-logo-inner">
+      <a href=3D"http://www.w3.org/html/logo/">
+      <img src=3D"http://www.websocket.org/img/html5-badge1.png" width=3D"1=
+16" height=3D"42" alt=3D"HTML5 Powered with Connectivity / Realtime, CSS3 /=
+ Styling, and Semantics" title=3D"HTML5 Powered with Connectivity / Realtim=
+e, CSS3 / Styling, and Semantics">
+</a>
+      </div>
+    </div>
+
+    <div class=3D"clearfix"></div>
+   =20
+    <br>
+
+   =20
+	=09
+
+    <nav>
+     =20
+      <h2>Links</h2>
+     =20
+      <a href=3D"http://www.websocket.org/index.html">Home</a><br>
+      <a href=3D"http://www.websocket.org/demos.html">Demos</a><br>
+      <a href=3D"http://www.websocket.org/echo.html" class=3D"subLink">Echo=
+ Test</a><br>
+      <a href=3D"http://www.websocket.org/demos.html" class=3D"subLink">Dem=
+os on the Web</a><br>
+      <a href=3D"http://www.websocket.org/aboutwebsocket.html">All About We=
+bSocket</a><br>
+      <a href=3D"http://www.websocket.org/quantum.html">Benefits of WebSock=
+et</a><br>
+      <a href=3D"http://www.websocket.org/book.html">Book About WebSocket</=
+a><br>     =20
+      <br>
+      <a href=3D"http://dev.w3.org/html5/websockets/">WebSocket API</a><br>
+      <a href=3D"http://datatracker.ietf.org/doc/rfc6455/?include_text=3D1"=
+>WebSocket Protocol</a><br>
+
+    </nav>
+   =20
+    <div id=3D"main-container">
+
+      <!--
+      <header>
+        This is the header.
+      </header>
+      -->
+   =20
+      <div id=3D"main">
+       =20
+        <h1>Echo Test</h1>
+        <p class=3D"bodytext">The first section of this page will let you d=
+o an HTML5 WebSocket test against the echo server. The second section walks=
+ you through creating a WebSocket application yourself.</p><p class=3D"body=
+text">You can also <a href=3D"http://blog.kaazing.com/2012/05/09/inspecting=
+-websocket-traffic-with-chrome-developer-tools/">inspect WebSocket messages=
+</a> using your browser.</p>
+       =20
+        <h2>Try it out</h2>
+ =20
+        <div id=3D"webSocketSupp" style=3D"display: block;">
+          <div style=3D"float: left;">
+            <img src=3D"http://www.websocket.org/img/check.png" width=3D"36=
+" height=3D"36" align=3D"absmiddle">
+          </div>
+          <div style=3D"float: left; width: 600px; margin-left: 10px; posit=
+ion:relative; top: 8px;">
+            This browser supports WebSocket.
+          </div>
+          <div class=3D"clearfix"></div>
+        </div>
+       =20
+        <div id=3D"noWebSocketSupp">
+          <div style=3D"float: left;">
+            <img src=3D"http://www.websocket.org/img/cross.png" width=3D"36=
+" height=3D"36" align=3D"absmiddle">
+          </div>
+          <div style=3D"float: left; width: 600px; margin-left: 10px;">
+            <p>Uh-oh, the browser you're using doesn't have native support =
+for WebSocket. That means you can't run this demo.</p>
+            <p>The following link lists the browsers that support WebSocket=
+:</p>
+            <p><a href=3D"http://caniuse.com/#feat=3Dwebsockets">http://can=
+iuse.com/#feat=3Dwebsockets</a></p>
+          </div>
+          <div class=3D"clearfix"></div>
+        </div>
+       =20
+        <div id=3D"echo">
+          <div id=3D"echo-config" style=3D"float: left;">
+            <strong>Location:</strong><br>
+            <input id=3D"wsUri" size=3D"35">
+            <br>
+            <input type=3D"checkbox" id=3D"secureCb" onclick=3D"toggleTls()=
+;">
+            <span id=3D"secureCbLabel" style=3D"font-size: smaller; color: =
+black;">Use secure WebSocket (TLS)</span><br>
+            <button id=3D"connect">Connect</button>
+            <button id=3D"disconnect" disabled=3D"">Disconnect</button>
+            <br>
+            <br>
+            <strong>Message:</strong><br>
+            <input id=3D"sendMessage" size=3D"35" value=3D"Rock it with HTM=
+L5 WebSocket" disabled=3D"">
+            <br>
+            <button id=3D"send" class=3D"wsButton" disabled=3D"">Send</butt=
+on>
+          </div>
+          <div id=3D"echo-log" style=3D"float: left; margin-left: 20px; pad=
+ding-left: 20px; width: 350px; border-left: solid 1px #cccccc;"> <strong>Lo=
+g:</strong>
+            <div id=3D"consoleLog"></div>
+            <button id=3D"clearLogBut" style=3D"position: relative; top: 3p=
+x;">Clear log</button>
+          </div>
+          <div class=3D"clearfix"></div>
+        </div>
+       =20
+        <p><br><strong>Instructions:</strong></p>
+        <table class=3D"instructions" cellspacing=3D"0px" cellpadding=3D"2p=
+x">
+          <tbody><tr>
+            <td valign=3D"top" nowrap=3D"">Step 1: &nbsp;</td>
+            <td valign=3D"top">Press the <strong>Connect</strong> button.</=
+td>
+          </tr>
+          <tr>
+            <td valign=3D"top" nowrap=3D"">Step 2: &nbsp;</td>
+            <td valign=3D"top">Once connected, enter a message and press th=
+e <strong>Send</strong> button. The output will appear in the <strong>Log</=
+strong> section. You can change the message and send again multiple times. =
+</td>
+          </tr>
+          <tr>
+            <td valign=3D"top" nowrap=3D"">Step 3: &nbsp;</td>
+            <td valign=3D"top">Press the <strong>Disconnect</strong> button=
+.</td>
+          </tr>
+          <tr>
+            <td valign=3D"top" nowrap=3D"">Note: &nbsp;</td>
+            <td valign=3D"top">In some environments the WebSocket connectio=
+n may fail due to intermediary firewalls, proxies, routers, etc. In that ca=
+se take advantage of WebSocket's secure capability and check<strong> Use se=
+cure WebSocket (TLS)</strong>. Even if you have no issues you can still fee=
+l free to test using a secure connection.</td>
+          </tr>
+        </tbody></table>
+ =20
+        <h2>Creating your own test</h2>
+        <p>Using a text editor, copy the following code and save it as <str=
+ong>websocket.html</strong> somewhere on your hard drive. Then simply open =
+it in a browser. The page will automatically connect, send a message, displ=
+ay the response, and close the connection.</p>
+       =20
+       =20
+      <div class=3D"codePanel">=20
+        <pre>&lt;!DOCTYPE html&gt;
+
+&lt;meta charset=3D"utf-8" /&gt;
+
+&lt;title&gt;WebSocket Test&lt;/title&gt;
+
+&lt;script language=3D"javascript" type=3D"text/javascript"&gt;
+
+  var wsUri =3D "ws://echo.websocket.org/";
+  var output;
+
+  function init()
+  {
+    output =3D document.getElementById("output");
+    testWebSocket();
+  }
+
+  function testWebSocket()
+  {
+    websocket =3D new WebSocket(wsUri);
+    websocket.onopen =3D function(evt) { onOpen(evt) };
+    websocket.onclose =3D function(evt) { onClose(evt) };
+    websocket.onmessage =3D function(evt) { onMessage(evt) };
+    websocket.onerror =3D function(evt) { onError(evt) };
+  }
+
+  function onOpen(evt)
+  {
+    writeToScreen("CONNECTED");
+    doSend("WebSocket rocks");
+  }
+
+  function onClose(evt)
+  {
+    writeToScreen("DISCONNECTED");
+  }
+
+  function onMessage(evt)
+  {
+    writeToScreen('&lt;span style=3D"color: blue;"&gt;RESPONSE: ' + evt.dat=
+a+'&lt;/span&gt;');
+    websocket.close();
+  }
+
+  function onError(evt)
+  {
+    writeToScreen('&lt;span style=3D"color: red;"&gt;ERROR:&lt;/span&gt; ' =
++ evt.data);
+  }
+
+  function doSend(message)
+  {
+    writeToScreen("SENT: " + message);=20
+    websocket.send(message);
+  }
+
+  function writeToScreen(message)
+  {
+    var pre =3D document.createElement("p");
+    pre.style.wordWrap =3D "break-word";
+    pre.innerHTML =3D message;
+    output.appendChild(pre);
+  }
+
+  window.addEventListener("load", init, false);
+
+&lt;/script&gt;
+
+&lt;h2&gt;WebSocket Test&lt;/h2&gt;
+
+&lt;div id=3D"output"&gt;&lt;/div&gt;
+
+</pre>
+</div>
+
+      </div> <!-- #main -->
+   =20
+    </div> <!-- #main-container -->
+   =20
+    <div class=3D"clearfix"></div>
+
+    <footer>
+      <div style=3D"float: right;">
+       =C2=A9 2013 Kaazing Corporation. All Rights Reserved &nbsp; - &nbsp;=
+ <a href=3D"mailto:webmaster@websocket.org">Contact Webmaster</a>
+      </div>
+      <div class=3D"clearfix"></div>
+    </footer>
+
+   =20
+   =20
+
+    <!--[if lt IE 7 ]>
+      <script src=3D"js/lib/dd_belatedpng.js"></script>
+      <script> DD_belatedPNG.fix('img, body, footer'); //fix any <img> or .=
+png_bg background-images </script>
+    <![endif]-->
+
+  </div> <!-- #container -->
+
+ =20
+
+
+
+
+</body></html>
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/topgradient.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAABQCAIAAABXpYiMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjY0NTQ0N0Q5RTZENjExREZBMEYwQzFBNDIzNzMwMDcwIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjY0NTQ0N0RBRTZENjExREZBMEYwQzFBNDIzNzMwMDcwIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjQ1NDQ3RDdFNkQ2MTFERkEwRjBD
+MUE0MjM3MzAwNzAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjQ1NDQ3RDhFNkQ2MTFERkEw
+RjBDMUE0MjM3MzAwNzAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz4HPsVDAAAAWUlEQVR42mSO0RHAMAhCkf336SLdx/YiWpJ+
+eAbFF5D3RQQI8O1R1W9Ih++sk9Ioz/hPhviUXru+wccZlv8j74/tM9i95dt0e1A50uadY7RlSRw8
+iLXqEWAAQSYFnFPEWIcAAAAASUVORK5CYII=
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/topnav-bg2.gif
+
+R0lGODlhAwAUAMQAAP/gzf/j0f/q3f/r3v/r4P/l0//v5P/m2P/s4P/s3//hzf/j0v/r3f/n2P/k
+0//v5v/v4//i0P/l1P/hz//p2//hzv/m1v/u4v/v5f/o2f/t4f/w5gAAAAAAAAAAAAAAACH/C1hN
+UCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtj
+OWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUg
+WE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAi
+PiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5
+bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29t
+L3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NU
+eXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdp
+bmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkVFQ0YzQzJFM0IxMTFERkFERTk4QTlG
+MThCQkQ5NkUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkVFQ0YzQzNFM0IxMTFERkFERTk4
+QTlGMThCQkQ5NkUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDpCRUVDRjNDMEUzQjExMURGQURFOThBOUYxOEJCRDk2RSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1w
+LmRpZDpCRUVDRjNDMUUzQjExMURGQURFOThBOUYxOEJCRDk2RSIvPiA8L3JkZjpEZXNjcmlwdGlv
+bj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf2
+9fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769
+vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWE
+g4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxL
+SklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMS
+ERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAADABQAAAUp4CY+z4adEGRcrOYmBDIMDCMI
+VJ7tzdFYQInQUXAEFoGIcsKsOBUAQAgAOw==
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/bottomgradient.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoCAIAAACw1AcgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjNGM0VCNjc5RTZEQjExREZBRERDRDVCOEI1MkJGNjYzIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjNGM0VCNjdBRTZEQjExREZBRERDRDVCOEI1MkJGNjYzIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6M0YzRUI2NzdFNkRCMTFERkFERENE
+NUI4QjUyQkY2NjMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6M0YzRUI2NzhFNkRCMTFERkFE
+RENENUI4QjUyQkY2NjMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz7ZQ5XBAAAAO0lEQVR42lyMQQoAMAjDYv//zJ33BSejA+eh
+REsJuZcIBFF00Oh8f5v5v01RxWx9yIxGe5Phw66bI8AASZwFTBNgucsAAAAASUVORK5CYII=
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.websocket.org/css/style.css?v=2
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot=
+e, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, sm=
+all, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, l=
+abel, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, asi=
+de, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav,=
+ section, summary, time, mark, audio, video { margin: 0px; padding: 0px; bo=
+rder: 0px; outline: 0px; font-size: 100%; vertical-align: baseline; backgro=
+und: transparent; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, =
+nav, section { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote::before, blockquote::after, q::before, q::after { content: none;=
+ }
+
+a { margin: 0px; padding: 0px; font-size: 100%; vertical-align: baseline; b=
+ackground: transparent; }
+
+ins { color: rgb(0, 0, 0); text-decoration: none; background-color: rgb(255=
+, 255, 153); }
+
+mark { color: rgb(0, 0, 0); font-style: italic; font-weight: bold; backgrou=
+nd-color: rgb(255, 255, 153); }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom-width: 1px; border-bottom-style: do=
+tted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+hr { display: block; height: 1px; border-width: 1px 0px 0px; border-top-sty=
+le: solid; border-top-color: rgb(204, 204, 204); margin: 1em 0px; padding: =
+0px; }
+
+input, select { vertical-align: middle; }
+
+body { font-style: normal; font-variant: normal; font-weight: normal; font-=
+size: 13px; line-height: 1.231; font-family: sans-serif; }
+
+select, input, textarea, button { font-style: normal; font-variant: normal;=
+ font-weight: normal; font-size: 99%; line-height: normal; font-family: san=
+s-serif; }
+
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+body, select, input, textarea { color: rgb(68, 68, 68); }
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+html { overflow-y: scroll; }
+
+a:hover, a:active { outline: none; }
+
+a, a:active, a:visited { color: rgb(96, 120, 144); }
+
+a:hover { color: rgb(0, 51, 102); }
+
+ul, ol { margin-left: 1.8em; }
+
+ol { list-style-type: decimal; }
+
+nav ul, nav li { margin: 0px; }
+
+small { font-size: 85%; }
+
+strong, th { font-weight: bold; }
+
+td, td img { vertical-align: top; }
+
+sub { vertical-align: sub; font-size: smaller; }
+
+sup { vertical-align: super; font-size: smaller; }
+
+pre { padding: 15px; white-space: pre-line; word-wrap: break-word; }
+
+textarea { overflow: auto; }
+
+.ie6 legend, .ie7 legend { margin-left: -7px; }
+
+input[type=3D"radio"] { vertical-align: text-bottom; }
+
+input[type=3D"checkbox"] { vertical-align: bottom; }
+
+.ie7 input[type=3D"checkbox"] { vertical-align: baseline; }
+
+.ie6 input { vertical-align: text-bottom; }
+
+label, input[type=3D"button"], input[type=3D"submit"], button { cursor: poi=
+nter; }
+
+button, input, select, textarea { margin: 0px; }
+
+input:valid, textarea:valid { }
+
+input:invalid, textarea:invalid { border-top-left-radius: 1px; border-top-r=
+ight-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radiu=
+s: 1px; -webkit-box-shadow: red 0px 0px 5px; box-shadow: red 0px 0px 5px; }
+
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-co=
+lor: rgb(240, 221, 221); }
+
+::selection { color: rgb(255, 255, 255); text-shadow: none; background: rgb=
+(255, 94, 153); }
+
+a:link { -webkit-tap-highlight-color: rgb(255, 94, 153); }
+
+button { width: auto; overflow: visible; }
+
+.ie7 img { }
+
+.ir { display: block; text-indent: -999em; overflow: hidden; text-align: le=
+ft; direction: ltr; background-repeat: no-repeat; }
+
+.hidden { display: none; visibility: hidden; }
+
+.visuallyhidden { clip: rect(1px 1px 1px 1px); position: absolute !importan=
+t; }
+
+.invisible { visibility: hidden; }
+
+.clearfix::before, .clearfix::after { content: ' '; display: block; height:=
+ 0px; visibility: hidden; }
+
+.clearfix::after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+@media (orientation: portrait) {=20
+}
+
+@media (orientation: landscape) {=20
+}
+
+@media screen and (max-device-width: 480px) {=20
+}
+
+@media print {=20
+  * { color: rgb(68, 68, 68) !important; text-shadow: none !important; back=
+ground: transparent !important; }
+  a, a:visited { text-decoration: underline; color: rgb(68, 68, 68) !import=
+ant; }
+  a::after { content: ' (', attr(href), ')'; }
+  abbr::after { content: ' (', attr(title), ')'; }
+  .ir a::after { content: ''; }
+  pre, blockquote { border: 1px solid rgb(153, 153, 153); page-break-inside=
+: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+body { background-image: url(http://www.websocket.org/img/topgradient.png);=
+ background-repeat: repeat-x; }
+
+h1 { font-size: 200%; color: rgb(164, 69, 5); padding: 22px 0px 14px; }
+
+h2 { padding: 10px 0px 14px; font-size: 150%; color: rgb(59, 111, 143); }
+
+nav { float: left; width: 200px; }
+
+nav a, nav span { line-height: 150%; }
+
+nav a.subLink { margin-left: 15px; }
+
+nav .navCurrent { font-weight: bold; }
+
+a:link, a:visited, a:active { color: rgb(164, 69, 5); text-decoration: none=
+; }
+
+a:hover { color: rgb(164, 69, 5); text-decoration: underline; }
+
+#nav-sponsor { float: right; height: 25px; line-height: 25px; margin-right:=
+ 10px; }
+
+#nav-sponsor img { margin-top: 5px; vertical-align: top; border: 0px; }
+
+#container { margin: 0px auto; width: 960px; }
+
+#top { margin-top: 5px; color: rgb(164, 69, 5); }
+
+#top-logo { float: left; }
+
+#top-heading { float: left; position: relative; top: 8px; left: 5px; }
+
+#top-heading a { text-decoration: none; }
+
+#top-heading-byline { position: relative; top: -10px; left: 118px; color: r=
+gb(204, 85, 6); }
+
+#nav-top { color: rgb(164, 69, 5); height: 25px; margin-top: 5px; backgroun=
+d-image: url(http://www.websocket.org/img/topnav-bg2.gif); background-color=
+: rgb(255, 240, 230); background-position: 50% 100%; background-repeat: rep=
+eat-x; }
+
+.imgWithTextVerticalCentered { vertical-align: middle; }
+
+.websiteHeading1 { font-size: 250%; font-weight: bold; }
+
+p.bodytext { font-size: 15px; line-height: 125%; color: rgb(102, 102, 102);=
+ padding-bottom: 10px; }
+
+#ntl-menu { margin: 0px; padding: 0px; list-style: none; white-space: nowra=
+p; text-align: left; float: left; }
+
+#ntl-menu li.first { margin-left: 5px; }
+
+#ntl-menu li.last { border-right-style: solid; border-right-width: 1px; bor=
+der-right-color: rgb(242, 228, 218); }
+
+#ntl-menu li { margin: 0px; padding: 0px; list-style: none; display: inline=
+; border-right-style: solid; border-right-width: 1px; border-right-color: r=
+gb(242, 228, 218); }
+
+#ntl-menu ul { padding: 0px 20px 0px 1px; margin: 0px; list-style: none; po=
+sition: absolute; left: -9999px; border-width: 0px 1px 1px; border-right-st=
+yle: solid; border-bottom-style: solid; border-left-style: solid; border-ri=
+ght-color: rgb(164, 69, 5); border-bottom-color: rgb(164, 69, 5); border-le=
+ft-color: rgb(164, 69, 5); z-index: 10; opacity: 0.95; }
+
+#ntl-menu ul.ul-l1 { background: rgb(255, 250, 246); }
+
+#ntl-menu ul.ul-l1 li { border: 0px; }
+
+#ntl-menu li.liTop { float: left; display: block; }
+
+#ntl-menu a { display: block; font-size: 90%; font-weight: bold; color: rgb=
+(164, 69, 5); line-height: 23px; text-decoration: none; padding: 0px 10px 0=
+px 7px; border-style: solid; border-width: 1px; border-color: rgb(255, 240,=
+ 230) rgb(255, 234, 221) rgb(255, 224, 205); }
+
+#ntl-menu :hover a:hover { color: rgb(164, 69, 5); text-decoration: underli=
+ne; background: rgb(255, 250, 246); }
+
+#ntl-menu li.liTop a.top { float: left; }
+
+#ntl-menu ul.ul-l1 li a { font-weight: normal; }
+
+#ntl-menu li a.top:hover { position: relative; color: rgb(164, 69, 5); back=
+ground: rgb(255, 250, 246); }
+
+#ntl-menu li.liTop:hover { position: relative; color: rgb(255, 255, 255); b=
+ackground: blue; }
+
+#ntl-menu li.liTop:hover > a { color: rgb(164, 69, 5); border-style: solid;=
+ border-width: 1px; border-color: rgb(164, 69, 5) rgb(164, 69, 5) rgb(255, =
+250, 246); background: rgb(255, 250, 246); }
+
+#ntl-menu li.liTop.last:hover > a { border-right-style: solid; border-right=
+-width: 1px; border-right-color: rgb(164, 69, 5); }
+
+#ntl-menu li.liTop:hover ul :hover > a { color: rgb(164, 69, 5); background=
+: rgb(255, 250, 246); }
+
+#ntl-menu li.liTop.single > a { border-style: solid; border-width: 1px; bor=
+der-color: rgb(255, 240, 230) rgb(255, 234, 221) rgb(255, 224, 205); }
+
+#ntl-menu li.liTop.single:hover > a { border: 1px solid rgb(164, 69, 5); li=
+ne-height: 23px; }
+
+#ntl-menu li.liTop:hover ul { margin-top: 24px; }
+
+#ntl-menu :hover ul { left: 0px; }
+
+#ntl-menu :hover ul a { color: rgb(164, 69, 5); border: 0px; }
+
+#ntl-menu :hover ul b { position: absolute; }
+
+#ntl-menu :hover ul.right { left: auto; right: -1px; }
+
+#ntl-menu :hover ul :hover ul { left: 95%; margin-top: -26px; }
+
+#ntl-menu :hover ul :hover ul.left { left: auto; right: 95%; margin-top: -2=
+6px; }
+
+#ntl-menu :hover ul ul, #ntl-menu :hover ul :hover ul ul { left: -9999px; }
+
+#ntl-menu :hover ul ul.left { left: -9999px; right: auto; }
+
+#ntl-menu table { border-collapse: collapse; margin-top: -1px; }
+
+#main-container { float: left; width: 760px; }
+
+#consoleLog { border-style: solid; border-width: 1px; border-color: rgb(204=
+, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); paddi=
+ng: 5px; width: 100%; height: 172px; overflow-y: scroll; }
+
+#consoleLog p { font-size: 11px; line-height: 150%; }
+
+#webSocketSupp { display: none; border: 2px solid rgb(0, 102, 0); margin: 5=
+px 20px 20px; padding: 10px; font-size: 16px; color: rgb(13, 137, 0); backg=
+round-color: rgb(240, 255, 240); }
+
+#webSocketSupp p { font-size: 16px; color: rgb(13, 137, 0); }
+
+#noWebSocketSupp { display: none; border: 2px solid rgb(203, 0, 0); margin:=
+ 5px 20px 20px; padding: 10px; font-size: 16px; color: rgb(128, 0, 0); back=
+ground-color: rgb(255, 225, 225); }
+
+#noWebSocketSupp p { font-size: 16px; line-height: 125%; color: rgb(128, 0,=
+ 0); margin-top: 10px; }
+
+#noWebSocketSupp p:first-child { margin-top: 0px; }
+
+#echo { }
+
+#echo button { margin-top: 5px; }
+
+#top-compat-box { float: right; width: 150px; border-top-left-radius: 10px;=
+ border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bo=
+ttom-left-radius: 10px; color: rgb(238, 238, 238); padding: 2px 10px; heigh=
+t: 65px; background-color: rgb(184, 77, 6); }
+
+#top-compat-box p { font-weight: bold; font-size: 11px; }
+
+#top-compat-box #top-compat-info-box { border-top-left-radius: 8px; border-=
+top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-=
+radius: 8px; color: rgb(59, 111, 143); padding: 2px 5px; margin-top: 5px; f=
+ont-size: 11px; font-weight: bold; text-align: center; background-color: rg=
+b(238, 238, 238); }
+
+#top-compat-box #top-compat-info-box #top-compat-info { float: left; }
+
+#top-compat-box #top-compat-info-box #top-compat-image { float: left; margi=
+n-left: 10px; }
+
+#html5-logo-outer { position: relative; width: 960px; }
+
+#html5-logo-inner { position: absolute; right: 0px; }
+
+.instructions { width: 100%; border-top-style: dotted; border-top-width: 1p=
+x; border-top-color: rgb(221, 221, 221); }
+
+.instructions td { font-size: 12px; font-family: arial, helvetica, verdana,=
+ sans-serif; color: rgb(102, 102, 102); border-bottom-style: dotted; border=
+-bottom-width: 1px; border-bottom-color: rgb(221, 221, 221); padding-top: 3=
+px; padding-bottom: 3px; background-color: rgb(252, 252, 252); }
+
+.codePanel { border: 1px dashed rgb(164, 69, 5); padding: 10px; color: rgb(=
+51, 51, 51); margin-top: 15px; width: 90%; background-color: rgb(249, 249, =
+249); }
+
+.codePanel pre { font-size: 12px; }
+
+#subcopy pre { font-size: 12px; line-height: 16px; border: 1px dashed rgb(1=
+64, 69, 5); width: 666px; padding: 20px; margin: 0px 0px 12px 18px; color: =
+rgb(136, 136, 136); }
+
+#subcopy pre b { color: rgb(46, 49, 146); font-weight: normal; }
+
+#subcopy pre u { color: rgb(146, 39, 143); text-decoration: none; }
+
+#subcopy pre strike { color: rgb(25, 123, 48); text-decoration: none; }
+
+footer { border-top-style: solid; border-top-width: 1px; border-top-color: =
+rgb(255, 228, 210); margin-top: 20px; padding: 5px 10px; font-size: 10px; c=
+olor: rgb(153, 153, 153); background-image: url(http://www.websocket.org/im=
+g/bottomgradient.png); background-repeat: repeat-x; }
+
+.demo-summary { border-top-style: solid; border-top-width: 1px; border-top-=
+color: rgb(255, 228, 210); padding-top: 20px; padding-bottom: 20px; width: =
+760px; }
+
+.demo-summary:last-child { border-bottom-style: solid; border-bottom-width:=
+ 1px; border-bottom-color: rgb(255, 228, 210); }
+
+.demo-summary .thumbnails { width: 225px; float: left; }
+
+.demo-summary .thumbnails .thumbnail { border: 1px solid rgb(170, 170, 170)=
+; }
+
+.demo-summary .details { width: 535px; float: left; }
+
+.demo-summary .details .title { font-weight: bold; font-size: 150%; }
+
+.demo-summary .details .desc { }
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/logo-top2.png
+
+iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjRFRUE4RkNBRTY0OTExREZBNDAxRENBQjNDNzE3MURBIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjRFRUE4RkNCRTY0OTExREZBNDAxRENBQjNDNzE3MURBIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NEVFQThGQzhFNjQ5MTFERkE0MDFE
+Q0FCM0M3MTcxREEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NEVFQThGQzlFNjQ5MTFERkE0
+MDFEQ0FCM0M3MTcxREEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz65ZFLgAAAjhElEQVR42sx8CZBlV3nef87d3tKvX+/ds/T0
+7Is0izQjCYQ2jLEWUEAOKCJOcDmUKUiwQuzYkEo5hXBSXiBRQghJilJhyZiYxBZgG5BZ7AhJzGhB
+20iaGc3aPdMzvU53v379lvvuvefk//9z7n2vpYFIFrIZ1dHb7nLOd/7l+5fbQmsNr/9feo543We2
+osSdqTQ3TC01N2sVD48UVNN3YLkZg9NSEnzX0YlwI9d1a6WcW+3KOcuB7y7gverwd/jPfbNv0IoT
+b7bS3Hx0snL9senazecuNjbPLoebamHSn/cErC3JpOCLancgob/o6A1lF6TjaHC81lLk1cH1G135
+YHbrgH9qoOQ/7bnOk44jX8Ytqb2Z8xZvksQE5xebNzx7rnbdC+dr79BJtH+pFjlT1bjZbMW9SaJA
+KQWxAoi1MJcTAjxHwFhZwJ5hCV2BAxdqEkLtQinnw1hfADdszoH0gqnA9495nvOIFPBdPPtpfA1/
+xoHRueMz4V2HJhofPbMQv9URGpZDDc1WBMv11vlKLYxVHI9qlcgY79tSAvEQEDgShJTgSoAwEYAf
+oScAQPxgJUKU8YctfQ780t4cDJUDFKI85HI5CAKvjqc/4Un4Q7z513Gs/MwBM34xuuOxs9G/HV/S
+V1826MC2XoD+IIKlWguaYQjnFkJ4fiqE4/MJTK1ocFE63rXVhXLegQeP43WERImRoMAAc2AEYGsP
+QDNSUG8lMFwAiJSGDWUHhrt98PwAioUC6lMOlmKUMB9+2J+Hz5dceBCnE/+9A7PUUJt+MBH/wZmK
+vNNxHLhhVMDufgUhSkm9EUIrbEKIwLQiBChK4EvPJ/DMNB4z7MENYy6MVx14YspBoCTZFgRFshTF
+CELJB/jg5RonmcBkJSbDDScXYvjIFQSewOPxAC8Hj0wXoFDwoVQQqhDor27sEveO5ODpvzdgjs2p
+Wx6ZhM/kA7l3z5CALbjDuGPQCGMGpdls8iBQXEjgxTkF//kJAN8jA+uCkggEvuZ98+oQONIMAkfh
+3IquhgPDGh4/F0EVXVevH8Ge/gSkjmFnH8CWfge+c9aHEytF2Lm2AMWiA8U8HB/Jw+eu6oMHUM1q
+f2fAxIn2H5vUv/bCovjEtn4xfNUQwCw602YLYGIhgf0DLfABJaUZouSEEMco2VrB114GeOg02hTf
+tUDgcF2WEn5FiSFQnAwcsjMaIjQ2BKxKYkjwWo0wggjBFiqGf3lAw1401g8cceFCWITB3i64drMP
+oQtNNEdfvbYPfi8v4fib7q6roR78v5Pw2zOR/PD6fsjvGQB4cgrgsXNo+eoJXFwJ4RE/hKuHWrCn
+z0iK0oqt0XgFjSsaXAcHOyMcKtFoVxAAfHVQEtFR4xmAr5qlhtTVQftD0kNHoKigxCkEzIObNwPs
+GkxYRW8dTeAbpxScvBDDXTvLsH0kyB1dhl+pJbAVgfldvNBDr2ed8vUcvNTU6/56Er4QuuLuTb06
+v6GoYaoKMLmMi0Hfu9JosZQcmwnhWy+HCFKMu5ogOAqKnoZf2GRcM0lAC48P8TWMEzNwcWErxkXi
+4FezYPqtxYMkBweimGiJoAqYqKIoLAoGvdtP4APbQxh0V2B6fgkUqvC+MsCAB9fjz/8Nx+2vZ63O
+Pffc85oOXGjA5r+ahP9ZKIj3jpa0CND45XFGG7qRd/RruKI/BhWjLiURzCyHMFWJ4IcTMVSait0w
+fgUXGwKOXtTsgkkSSApQU5DT0NCsNmYoHnGS4FBmIMARfk7sZ8Bzz1UUPHo2QYlSgHOCnKvgxRlS
+twQ2duPxygE/8ACnij4S3oLjHJnGn5qNwUWN/vV5uG9jL9xcx4nnEJDpqoC9/QDzNRRtHUHZCRmQ
+5y+E8MCzTaihoSQpaOAWo21l99yIBVJ+sh8O8xZ+FYbDCGlUxnxv+I0U5lWwsbeD5ouqqRUNAgql
+KYpge0+ChpokTMOH9pFL9yDIFaCnpwfK3UXeHPx3AcfdOL72hm0MSm/fwVn9X71A3Hwl4n4YRbfa
+0lD28C7LGl6eieDKATSySQsCiOD8EnIXtDVAk1a0m6QCGBpgHITrJcONu0EiwmQXh7LgCPNKgNB7
++g9/N+/BgmM9Ip2fDgSI1nxkXrO9IumZWAIYKmiod0RXPeUi/gZr8e29pAA4Hn4jwEi816fXlMQd
+Ec5nETWlC90n8gS0gRq+caQFLyBpc3DH4iiEgozgzGIEDbQRWtOEjapotLK00YmwnJC+ZEA0o0Pg
+mFcw4HCEkEoLdLzqTHoYXN0GicAhbtPEm7w4p+GadbghOK+6RYeu0dNdoM0Zw4+fxXEXjtN/W1X6
+Zzi+gCM/izaigCqBIQzQek7MteDgRBMeHQ9hXT5C9xzBw6fR+OJk3r1Fw4PHEphBgi5ZJYAlwuy7
+WbBOmbMQ2cTBSon5bH7nc+1nA4/m/0voAAnMJkgrUZ5U8LEDAg6sESitqL6+D4ViEXp7e6GnlEv5
++ldwfPTHhRE/CZi9pItTTdhCakOgRDwPDQfHW/A3p0KKfyAQLfjwHlQZBoYkJoF/uhtw1xDRHyk2
+tItNAbXIqAVkS0tDCrPyzlmIV73XGTgMdAYUqQ5HE/wdkjn+nox6ASX7310HsL6E6qsMOF1dXdDX
+14sM2aeLUuD5m9ZjvWZgMISDP8Jf/lEjMXyDJLaBAeEk6tPnDjVhGg1tE4nWrr4YPn4AXWuL2Ghi
+XSpNWHD0XGmZIPD3Dyn40RS9N3Se76rtsu0czIvm/y4FDOEauGSnILNDFFfR9RzHROd0nLm3gg/t
+FXDLJgW1luJjA4yvurpL0N/XA4WArQip0p04nnlNPAbX9X58ea99z8azEaILRbb59SNNmKkat0yM
+9jTGLsfnYnah5BFaCMwKMWAkcy4Csq7bYcO7b9iBNSVKJ0gETmagGImxikFhAL3ib5kLT+zA92S4
+aZEtZThNwu5eWCVieoiXMuFGD0pFCzxwPY9ZNYlSFKPNqdWgUqniPIlWAlJE+A0rCD8ZGBT9IRwf
+p4Npx2nvItShCA0queMXptGOhC2oh4aeL9VimF5BScGDyVvROTmUimE00JSIWm5JuPdJjQzVgQfe
+48FvX++ieOOOMknrtBTWlmp2WObVvme+Y8FR1pCrjt9TUI1OSZQMh8F4ft4F4aDbRnBc/EyS2Gq1
+oIbgVKt1Ph//vedS5O9VwOBO/xM0sFeBFd2VBoKCKqPRHfd4MbxnS4JGB9msQGAwVjkwrPCz2cG8
+a8Tad405/JsJgHseVfAyOseSL+CHk4BDG6lIPa/1XMpKZwpQCo5W2ppXYY6jEEIZZVOdQ1vDjvcl
+Ca0nEiN3CUcWPAwqffBIclCSSG0p2l9ZqSHXatEs0ArBh3F0/Vh3vdiEgWoEv4LAkONh0XWQvM2i
+ke1CVwwqgl8Yi+GaoQSqCNiDRxQzW0+mTNYYvwoa268eVXAWSeCReZQglJz/8FgCF1bM7hrXSgvS
+6a6tsi/K2phUkugg2WGVjcSQy7bSA22gtPVuZKSbCM6PZgS8ZT2ClZgrUoKMsoeNRgPB8SHne2Sb
+bsAf34njG5eUmNNLcPvaLr2b3pNdIfZabURQEBHnV+aqMZM3hdav20vg7RuQ6PlGUuqobqE1iqcr
+aKR2SdjZL5j1vnuL5FeavIucRQpjH0g1NNsJnUmJsqlObWFJTTEfo3RbspI2QGyP+PdU6oxaEct+
+cV7CcuQYAEilPNfke9AM1Os1WKk16PoFvOwvd9oa2U5aQ3B+Rf9SOSck2lD0ODHqIxG3CG2JMbQO
+pMGdyaoN5jX8wx3ASSVaeN41UnPZgIBNPQLev1PAZ3/e4QDybMVEz1qbWIh2TVlQlNLZArPFaXOt
+1EFxBA6palkQVRsUNtQZSAY0ksqpGsBfnhTQlXOsrfE4vWFUqoXA1DhoxX832nhqtSqdXVYHcLeu
+QqeBgCgGgzwPsdmVKObcR4jfE6vNy4RJFF3cEWaXfceQs8A1ZK2GhvjMksBzFfzhc4pCC3azsZWS
+VQY3M7yqrVLWhZNKBMhJyN7xMUQOdSpFRKANGInEuTDgbaDpeHLh3zxJaVEBd+6Q4KERThITY1Gw
+SYm0er2JnqyrH4X+9i4XHlkFzKlFcRtueq/EixN7jWJywWY4uFfNJOGUAF1wYhmj17KZLE2OFu06
+9rMib4ThwnENX39ZM1hNxNjFiW/tjqE3SFiFUhuSUn7aRdd1MvrPv+O96rgRh+fQXihjN1SKJPEY
+bTiQTiVGktRQZC75HpTTcQya8PVjGtYUAW7ZiHQhQZdO64tj9lKtZh3OJTl4ecW94bYx6KZkgGvs
+ifZnavpt2/qAD6YYIyb1YWBM5qyGquWLBM5UErj3cfRO2wDu2I4SEQooYbjtcYYfdwhZ8guzCj7/
+FEpXZMByaAdUCL+66TxsLsUwtG6Ut58W5KKnKBTzUCqVoJAvMEAEDgWg42dOw5nTp+F3amvh6aUi
+2zJWKwJPkypKBodAkUJZ7mPVFIFUVKaRJowg6vAweskb1wtOusd4n1RqKMuIMTqcq7i7FkLYNxDA
+o671RmNLDbWzjsw2tkjSCQm/T3Ao8FF9KrjykxcVvH8HgaDhM8hmh4sS3rVNwGQV4IoRwOOMkgQo
+QVFsGCuRP081uUyinQAWlqrIJeqc4y0UilxGaRKIcoXBIrtGG9JshpAvlkAiqFoVMhef2hyRGlwE
+JaF0BXEd3Dx6nyjBg9QrQSBRGGEc7dzjFwBuQnCiCMGxDDmhYBNNBQpW+fwKvC0D5uxSsj+M1VBf
+oCwQiQWIdDFG9BPeBQ8n8L6dGCudUxiLmLrPOmQBZFgHi+RxBFSRIT88YdhqW8zN9coYxPmyDotL
+FQ7oWEoKBa4RcfIb70HsNKy1YH5+ns8dGUQxhro1sCY3w/ZHSCMl6D8EnkcBOkXvDr2SJKCksLRQ
+4I52RiujoH/ykobN3QB9vmRmLjnKB3geY7vyAAAS+QO4LsnAzNXUHgnK7fHMAhKrQoky0kIL0xYY
+EuHxRYUUX7Iq/Tnakv1rNWzrE5wWePishi8fNtyG0w7WEJLq0IQXKossBbsuu4y/GxgYYPJD9yAv
+MXnuHIOVz+dhYmIc+ntKYINqa5BNLlinQEmdEUFFNEAYI5yB46TnmgQYOYV7n1CQQwTfOiLhyiH0
+tYkHLRnAaC8TyO3zDdHv0q5frKvBvKMaOSeREcbpFhStEuS2SeJolpjEpBzxLt2+8S5hLGAXrmsL
+uuZ6i1KLaF9mjBuW0DaMWuvMhbqo293d3RhitODBBx+Eu+++mzNwjXqdN+X++++HPXv2wNjYmJXY
+xABijSiHWCwxdBtt7AynczDAQBdFNprtC6lSQrlkzRtGrtsDsi8oFU1SQym+M66TgxdktKavKLZs
+8P2eImgkxfT7gNuI1AeWGskHhvIKqU8i6mxseWgEAoVQiYx3EGNEFblpg3En5Il2IWeh4JFuPL1C
+3s3kRjg5lbpmNpQoRR6G/m4Xq1C+kIfBwUE28LWVFVheXubr96CKkbTQez5PqSyI0rbaYG2N1DJ1
+3ZYgojfSkuZrKhG06aRaRFN8Cleo2iAMtQhwgwLXFbmC5+S7StDTLWRA4VQidsQh/GMXKf3WWph0
+95ZNDjVOfXwGUApK2y2mySSaMwoKiqjZzTzyDfJEkDFZs5gUoCIa2hLHeRJ6yj1wxy/+IlTQ3lQQ
+lCZSdJKYW2+9ld3y7OxsJm1pHKA7fLzoiBl0Jp2JBUdYr0T8Bu+nONPKoIBNU/iIVDdG4INl3KBe
+jKeKwJwMwyEXyX2/rLdIWxR+oaxrNoY2yUbS4QLTXdSrJp0e34X85W3rLD3XHQDZ9yQlLlJz+o34
+QxUBWVhcQNvS5JXy9e090k3QNq8L9jvdwQi1DRPaYUV78wyzVmZjOzaYRQ0ByiEwpWIOyiUPugqa
+VYxDFsnzHXVRDfaxlMTKuGhrSzIgOgDRdqGd+baMoUoqsaA7PG9UKQUlVSV6paqAjk10W6lUYHFx
+kTnT5OQkBnQrsG37Ni6PkIXKzutUJaa6Vkpswc4cx6iaqB0NDud1pA0vhA0TbLKNjiVnRWXiQuBB
+DqMjz00zfyYLiMK1XkaJWiGesRJaaUhU5p5XD71KUtq7YxeNs/3KCwk8N00piY5jwC7MulkCZWlp
+iQdFuJQneeihh+CLX/xiFsMwIJBKA5goqSNwSjM4WnUcqzuk6hUbyuvR7Y3mghq1nTiGkYsMYJNq
+oaNcFJtTdEKleSkwVCaiKQDsEMTqvhgSwxMLGr5zmtyg3V0Qq4wmbVsLGWZruQIr9RAGBgds+F+H
+973/fRyw0jBIpAlNIyHCLlpo8YpkcGp3lElWdYQIdD9tQxSWLCQ5WprPmQZAu4JhaIVNXSiKlfAX
+uvH5ZQXNwQ4bYkcbEN2hSh3zozgHb/GtExoW6xooz5wo3WEs2yWOleoK+8NqtQpLi0ts4FkN0aX5
+GEssoWrxNXHbyEuRFyP3ngJDllOkuKl2Ll13lJwgU11pVdEAkqZLjSSlrJ4IpYMhAWUTkHIg81cY
+OoToUYj8OZQjma4mcGQugZ091mjZ8UppSd0AW3bH1Ic89gJtwyiMAmWkzFAPxSnFwWIXTM9ehKee
+esoaw1em502ZhFz26IbRTCLARt5ci7L5GqpBZa6KEZPZ/czxwgDE5E8Zm5MYZp/276xgiKLRdSUt
+Aa2GQdkNI+liWD5JZ1DMcBo5yLaySaZq1fYsHUnyLBM/V6e6sdnd4SKG9LsEPHlBcy2JXaK1M8La
+GJKsuZkL4HUhS96ykY0uS4yVLNEhgeTOqdxBuZKzp0/gxPtZRETHXIS0EVPmvm2hjr+Tdu6yQ2Jt
+YksJDpAbGIctVxGwqIWGX8AScRvXcJCt/XLORU90lAwnGczZmoJnphRc3q9f0U5my6WCuhuQj2AE
+/X8w5vj2KUPs+goC7nu3Bx+4XMA3TyjozxNIWb6SDRrlYZ+ebMJiKYJi1etwr5BJ1ytTEU104zWc
+01QtLcSpDhIjLOBpIc5IiWhTwFVER0Db3sU2D7OsY+RPdc4qemiEA3RJRaQTcqB00h0pBzpAVNBO
+CIzduCuBMv0yKwkaV+bi+N64hv/1YoLAUPYfoCdnpGgJ3fSXnktQaiQCK2CwgHNYA6ialPI0i3RR
+Ah443gPQQDuSLBqx0sL4eWErZbZ7M9tlQtTDAAaJoRuIjkqcboOSFuBsKlxksbc032ndAZbie5KN
+aVGogBF1C0Fx8HtOsOU8JKlIPjE+cge7/RdGe/0vLKy0fo0WiWE3KNztXRjUlhDBFukcTn6pqeD7
+4wapamRuRmCR+aRI+9snE87DjHQJJHoC/sFWZJE44++d1tCXJ5vkQqvUD253L/fHUCq0Ny85jKD7
+UiGO8GjGnUJha9a2+4GMsCGvhotI2wmR5nykrU5iuMiqLLnpiO5tMo2uPV5Ylx6z7UmMfUIjT3ma
+Qs4bH+vz7yetagx3ez9AY/rRnCtcmiipfmA7J6PYsAaaeMEjv2/Qj5XOKgOUa92MgeRdqEoDeWow
+AhhCin3FMIbyeKGDkxrWoG351RtdlsY/PRLD8YvK5IjJllEXBF6HAFV8bZGpQadEpHVs2VHol9ln
+3QEal94MYNIA5tguCgpfuLExvSaYUICaI8kT9Re9Y2vL3nOcdhjrzx3GhU+HkVhPC2+g+B+eFdw1
+uaVskkhUzO+2OXSzW5z5Y2B8/EAR9wlc7FfIANcwuOyXcPkgwIWqKcOsRUmarwN87ZiCl+aAk0jT
+K4onSROk/E1VmQ0ge9dS7XtxHc1Y2zYg2kTNEtI2EQuQLdEKYRZs6tsimzO9N6MtRRhLUqs+SowD
+wyXvMApIwsCs6QkmygXnSC2M11OxbLmJYKAv/+4pgF/eDeyOCTDq2n5xRvHFyJVv7qVKgITHzhG5
+03B4RhuTgdd88kKC4bvh7cRrnpvW8NBJbSduFutwJTLN4RrTQpJIEuNI0ZH/TRNUVpJEWuIQVlJS
++yKy+0thEml0H2pPo+8DYcyCYyXJsbbTxw8BslQEJ1rX6x/MyicF3wlHuv1DhCTFCq61hbM1gDNL
+Jn6gOhP18A4UzOTp89vHBFy/AQMy13g1ysn6rM8aGbBJPVJ7WIj6Q3FU3jGSx/pvd7CtFoIBof/6
+0KsRCaZ0Bi2O4ItjmzKVmr0Ip0At1xKZFGt7HcOfxtDWk4rTPG/ZkjY6rlYvl8mlAzmPom3vzNYB
+/wmuEhDJIt6wZTD//SMXah9zIzFA0kF8hQA6sUhqYXR4GO3GnZcJ+KPnFasZ2RNKUPXm2sTLmB4D
+ADct2gpCJ0GkqiABEpsEEx9DXO/27RL2jxg1OLVozqf7T1ep9i3hg3sF9AamqPfsNDBdoGRZzeaD
+8p4Ru7UlAbdtk/COTZJJICXCYwTl1JKgBkuWRheMUSaDS+21NNBDP95fdKYzYEhMtw3lnkY39VQz
+jG8jUOjkPBrbwzPARbYbR9Gg4k5evUbCcN4U2AgQyr9Q3z+51+6ckfFKM3Xx2nZVtbkFgbJ7EHUa
+17Cxx5Rwt6BH3ohqesOYZMAJqOtHjZeawzBjYknDpj7zW9oDM9ot4Oc2SrjYAFZjenpl/xojAWM9
+aEQLgg26sBsQZ0ZWsGkwNsZUDPIeAeO1tgwE30xpisspBrxAKScb24byfzq33LoZT3To5EgKm67E
+nZtXsGdQ46KARX2yothLkWRs6NZw99WSxZaM55+8qOCRCdOtCdYAksRQax4Z5U9c63BJlxLptch0
+RdChVH6phkZV6b5kf8oI9oG1whh6XGCo2/yOiGYZ+c0/PyB5sWnDA1EILt1InXmh4xc1qrOAYmC0
+gbwWaQbZlgCB6S36z1w+kvtuVok0qUMUT1zQ7nWFbz9/rvp8lIj9XmRcMy2uyzdJ5IfHFTx+znQr
+nV1OYM8QwG2bJfOU9d3GUNKOjnYbhiktWSPNx+Ad3b+Aj18jubL4EnIeui4BSwU5m8fla/hS2DhK
+cBNSJDoaiLTIjiOjStJAC4+Vde3S1Ji4E1SnYYlGYIzM+tLkfckIE5g5FH20MXrHcPDH5bysdABj
+RRzlDvnMzOaB4I8PT0b7EFXHTbuVUOzogkVfs+um0IFU4TkMH47OGsmhHb4K1YyM8Y5+4AAzsfkU
+ae0KuWwk2txYdMWwWWqiOvKTKakVetUzCyJNgttEA5voFEgBbNyZhzjtEEPazCFF/osNKheTQ3B4
+o0l9yPtS7pczeXnvyL51+QdXtYGojjlQwviqjaWvnppt3BXF6i10YoQXimXq3kiC0CM4pg6ddygG
+UnCxbjgNPXLzIvKfD13hwAd3CzSOJBUAW9Gtk3TsGzYirrKIG1anMfSlnoISWZKrs35teI0hh9Je
+TJlIwDAbi5DG+c6jd13AOXbljGoRMNTcZNTIUztH8vcNWqPb7nbIShO4qyib63uCqcvW5P87ntv0
+XGHVSbAFd63fd7iVw7RzuGBcNLnsoqfgZbRFnz0Yc/RN3Q53Yfw0jczt6FwC9DQSJ7+4faydDEts
+I3NiyzRpBjHN/6bpj1gZD2ZyvO28MOh2Bi5tUUvz0KQJfTnFfb+ULHfSKoG1LT1F79A1Y4Uvv6rP
+V3fkRLRtvLlmU+nPTs3Wb5+OkztJ5GJ0iSQ1iQUn4WE8jiN0OzGdRukYVkwtGz5EKka2YAG9y32h
+gt94q2Tpayez2gtjPiPBFu+lbX3VGXFjtZTthiITJmoGnMMTZTmRNJVHYQNTcu85h7qsNM+JPCpx
+F8+Vy1dvKP5BX8G5+KpWs6xtwuZgQlwFxgv1a7d0/37giJOBY42VMORIcjRqdFeS/ddmSG2qlIIr
+lgnXugGj15XQPDRRcKiRMYIfnm3hcRE/w8SjZV4jWzNPa+WaaYR5TewzBMJ2hWdNRErZ19XPICT2
+HK564BwWGwmqe8x20ZftnNLG/uBLV40V/hI6W/LtcJNLdLNS///udV3PnJmrf+bZ8eXPoe3JU4Ni
+SHWbOOK0YBJrW3uyTYNplSN9cMLWlYTN4rNdwWM9lIRmaIy9aQLS7VYQYZ5T4qdvJLc1sNcxC9GZ
+RIBtom4PG4mbPARVGe1xxmlQDqkZOUhJNCfAJXta+fhN27v/oyMv/cCrS091XPIHnMyN23vvn1ps
+HDg7H30kCuuwvFTlp9cibVtMKQ4C0bFjaTdl2maqsyQ1/U55mrFuhx/4im3RX1gPxAuROmsL17Zp
+yLEJ7SyAtEnwDISs1T7tMpemBR8M3VhCo/vsFJE6h20L20shLty0s+eTa8v+eQ2rm6+z9SeXyruC
+CcCQDEXvvLz/nv99sD564uLFdy1XquB4ee5+pBlzzTh7RkCzm0174cC6VRPzCf6uNxBclKM4K833
+pl6JvIVpOFRZy6ayT6CkeWDR8R5eISnCeql0mWRLlkIBD2EgXI096McwAW0Knbly5YbSp/Zv6Hok
+eqVXXAVMon7sgwTUFb6+N5i+Zc/gvzp6/GTZd+V1ff3duACHH8SiJmIKEslVk11wqKJpe2OWm4op
+eVrSCCjni/znJWTR2/pXF+tM94JoVy259GG7GqADABDZMwmZlGTPI+is4kTGnXq0v3dGYMjgQF8R
+ja/HT7800ET8+3fuHrgvjc9+7INcv/6bn/jJj+WgCoyUcwvFnPfE0Ym5neVyeZNHpbvOJwLSKrvN
+TBqvk/b7m0CRXDtxGOocv3K43cR8qWfaV3Vqpl7L2qPsFTqaoDMDrLKKxg8mqCFSQE9eQhGDvnzg
+Va8c6/2d916z7j/hBmtqatLw6gJiOpx//VuffIUhe/WgSuXoUHkOJeHg6anKZb7vb07rM5DVl9td
+DSRJ/MSNpeP8qo1rp1QCgUK8hxgz983ozuJZ24in3KRzAcqCozqksV0pNbVpNINweNZk5bpyXIqd
+37+x91N3XDP6uWLOVT9BSdq08uTZqf/vQVTXpmcTtY7hiaMzuw6dWPg0BnzvqTejIGyZ5xnpucWI
+Vcs8mpfo1d2TaS2e5k68JoegUAvJVetM/iVWpvtTCni1x0nzv1lFQGTVUJ1FUYYlU2/v8QUJh+cQ
+lDw9ix2cum7nyKduv2bDV4qBD8KRr6qkXtLG/NVjz762J60tUarXG0enjz37sd51244Ucr0fU0k8
+wJwBuYvhMQm3mLb9N7T7vLWwQSIwaXzmAsAppFaXD0nYMWCSYCYoMtE2RdpcfPOELSCsfmAnJaTc
+UARGQuYw/D6+QClSB7pzzqGb9w598qbdax5NA03iZK/p8WL6uwuv6eFJWwhfwVC4Mn9hbn0p+XQz
+2fiM75T/TSLUtZEmQCJuQaWOBlhVmYSsXCvsYmjhVBGpo+c4OAFwZEagURbQmzc5WcK2Cw8Y6aI/
+rdI2uLrDk5GEKRvZSPSSzdiFZ2eIIzmwZdj/8rv2r/nUns0DZ9IGaXiNoFhX/9r/Bkwq3o7r0ZPy
+ujlz/C/KI5te8LzSvwgb0YchbpUV9wKrLLLWuv00W9t32O8sTyEgGk2AZyZtnUi0j98+AJzASp9v
+Su1NYjvHEzBJtQbGLC9hnOZ6weJ1W0u/9/P71v6XwZ6uiOI//3U9RP2G/36M4MdqyoE6s6lX/tak
+C985OR39er3VvFnFiZt6jLQUlmWXstKYJXIpCFRbsymG9hOBAk6gER3OCdjcJwz/sWQx6QgoKWM4
+1QjU2sHCn71jz/Cnd6zvPeLnDKUI/pYrfMN/WIfEmVjy5kHv+z2B//DJC813n5iqf6RSj9+OpCPP
+xCutNIoUpHTlIgOg8zlI0fEcJCH3EtqiXhfq6PIX0MYPxErliDvRU3UXGyLJdfX8xY27Bv7H3o39
+36MuKXIAjtJvaHE/lb84ZMoenIyOd4wEfz6Yi741Pl25enx2+dZqqH9OCWeXkM4ADutdZAcw0kpI
++ynRtiMyNmkeJeLpRCdb+7QXxSoXRvEy/vJUrlA6dMXm4W9t3zDweHdXgT0gAeb9rP0pJqVNDJTz
+Zbx1OHeoP4gOTUzNf/b8fO2yRgRviYX7VnCCHcLxhhCkPEoSEmIRECoZizX/c9OqA4eiSVI5U2lN
+RovxixjtP9RdKj4+um7N8bF1w7qv3GVyScS8vZ/eWt6Uv1GlbOGMDDt6lpWy23hS1peerNXqn8fI
+vQ9DiiEt3V4EqBdXU0JykRMirTQR8UmoaWVQJ3FN6HjcEclR1Nczi6VCSE/BylKRXbOREPWmLOL/
+CTAAZVCd/64jZVsAAAAASUVORK5CYII=
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/check.png
+
+iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjNEQjgwQzAwQzgyMDExREY4NDAyRkRBRjUwNzcxQ0QyIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjNEQjgwQzAxQzgyMDExREY4NDAyRkRBRjUwNzcxQ0QyIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6M0RCODBCRkVDODIwMTFERjg0MDJG
+REFGNTA3NzFDRDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6M0RCODBCRkZDODIwMTFERjg0
+MDJGREFGNTA3NzFDRDIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz5rps9JAAAEI0lEQVR42ryYW0gUURjHvxllrVC3m1ZmSXal
+zNYMSbKiiIrELlCkhGHYQ9ZDPSQ91GsPkVER4UMX7SJJRamxldBFuxmGaZpdrDSzmxbVil0U7TT/
+k2eblp3L7roeOOyemfN9/998M/PNd47EGCNvWm1bDatrq6Guni7CL9r0cBtZAiz8NzbcJnnjVzIL
+1MN6qPSVnV1quEiljXb6/OOT7vzhg8JoSXQypUxaRUvGJ0sBUkDfAZ2sPcb2VuymZkeT85gSAYoJ
+n8EjEhse1xu1ah6xx22PEEHn3CjrOMpO3EnrYzMln4Detr9hGSWpVPm+go+TxszH1VLKxFUUPWSC
+rvPGry/ZpRcXEVW601LOjyVEJFL+8kKKDB2rbQsgd/32mzI27lAYC9lDbE6ejZ2uy2Nac406bOED
+vuATvrXmuj14/mkhG5Zj4Q7SLqxk7Z0Or2FEh4/0otXcJ3yfrS9gpoDutdx2wmy5kukziGuHTwEF
+LV2gFkez8zb5A8YVClrQ1ARaXJDEJyK0/oIRXdw+aLoFsr8o5hNmH5/eJ8+Muj9qrWaHH+xnrs8U
+tKAJbXFcFklvV1k2f+tSp6VTiCXUqyyrldGTzywgR6fjv+PQgBYatMGAxoGU7MtefmngeWZrQrYf
+YL65PQ8taEIbDE6ggsf5fALSfH/BiCY0zz4p+Buhn90/6VbzDT5YF5PRrzDiEUG73lRKYJGVLzXD
+H6T10CCr29uVdXkD8wcM2pABQyVogwEscv2nOn5ialiMphFuqRkoT2FEE9pgkZUPKB+MCY3SNTKC
+MoKxBlk1fQttsMgdXR18EGwJNrwSLSgjGDybm2dt03x7hTZYZPH+my2gXKHMwOQuy9NNJUIbLIEi
+lK6JywgKlUvWrK3kK4xaGyyBSrHEBy3tzR49iIAS+csXGLU2WOQpw6bywbPPTzQNrEGDPYL1BEat
+DRbZNjJeGhg4kO6/u8s/eO4M7Gk3TUN5CgNNaIMBLDL+zItayE8W1p9ya4QljRkoT2HUmmAAi6xO
+30XPz2saGkF5A6PWFAy8Bun+3U1xRybx2uRQ5T5mVNtEHhjM54q+yZ7hVf0ELdhDGwz/FWglDRec
+Bdr3rg7TUN7CQEMUaND2uYQF1I7r25jfSlj0198a+73Ih6buMgiLuP5aBrlbMBouFDOK1/bZQhG+
+PF4oqiM19uBQ7mDuiXhNB2Y6bOEDvuBTbyltuNmQXryGqj5U8vF8JXlhi2Xl5NX6Gwa9tsgx2Lop
+7y2R40cl0KkV53RtTW3HHK3OZTkVu+l9xzvnMSXNk23EzN6k+W87Bq2m9SHVfKxyzo0IHk3bE3fS
+xrgs37Zj1A37PsrV8qu+1niVvv76YlQr06LopTyaSlQl7CP16Q6aa1MiwKpb/0ZBvaWHFjcinn8o
+vfH7R4ABAG5z05F9Y4ZFAAAAAElFTkSuQmCC
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/nav-sponsor.png
+
+iVBORw0KGgoAAAANSUhEUgAAAF0AAAAPCAYAAACGN8M/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjIzNDZBN0QxRTgzMjExREY4NDU1Q0Y2NzVEMjREQzg0IiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjIzNDZBN0QyRTgzMjExREY4NDU1Q0Y2NzVEMjREQzg0Ij4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjM0NkE3Q0ZFODMyMTFERjg0NTVD
+RjY3NUQyNERDODQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjM0NkE3RDBFODMyMTFERjg0
+NTVDRjY3NUQyNERDODQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz72jsJ9AAAFX0lEQVR42uxYa2wUVRS+M9ud7dKtrQGFipEg
+hIWAxmjViKiJIcpDg4qpEbQVo2J8ERTfSDBqCtWKaKKRSJPiG59FrH+UCiYqogGxUqpSFfyBD1Bp
+6XZ3uzN+Z/vdcBnvlvK7nOTrdO7euY/vnPPdM+NMXrBCDWbLqIga6+5TqxPrlKMC5ePvAGwU8AlQ
+DiwAXj2aOYvUIDehuEdFVU65KqayID2SRNNNQBewEfjU8tgIYAz/ryxA+snAXGAo8DmwAbgG+NYd
+7KQL3XtyZao2NQVx7iAK/X1oPhdYymiusTyWOyxZ/m+nAh8Dy4D5wG7gMuB6cahE+gSgFPgR+JsP
+FQOnAR7gA1uA3tDAk4C4eK7AxNrEsWdyoVtDv8k8E9nHZgHHzwKns38b0MkUP5Frs216GNAO/Ms2
+vc8gFOiZmNPbtj6TTEvD4vjGv1wVXAqZWUuiGti3cYB+lLk/AsYBe4DpwPdAgvetLgfbDFzMhyYy
+Fb4CmphGQWjgs4Fv2GfRERZRQ2Kk/0yLNn7NcWyQtCxj3/e5zkre380+b3JDpj3Ovufz/ilgO9vM
+8TczENaXOulYU2a8WpM+Q8WdbAptVdLOgGgoEPE2wpsNwmeQcLFNjPpniwxCu4FZdEIZ0+N24AfL
+4MuYBWL3Aq8whcJWxjTVUVXLcdNs2w/U57O8bx3d3KzWy/sBSfdIKPrNaxX1cw7wa2h+n9fpPL8+
+AHYxMyV7SoBbgAuA4Qkns/u9zAR1pdemyp2eVK9yZWxbxIezxSQ8aRDeGlpPlz5I9QBLGcGSug8C
+dcaiTbuKWSHk7QWu47M3WvreA5zCBYv3p3CTz/H3P0OZMhu4w3h2hbEx3yI9mtjJQAsPqi2WzMzy
++gyzeCTlR5z5C6P5H+i5+t0vUc3Zcaomtk31Bq6O+NcZkA35c/dQ9CoG0CiDcHHqFRbCD9Nbbedw
+cy8xkm2Ei4Y/wd8khZcAB4FqHj6mjQYWymYYsXUkYzG1OGzzgLepuzLu0wPU0OWUwdEMhGlAqkDf
+OK+vAdsoeSI9j7D8Q8r5qimTVF2BB3LyvpOxbuM+ha+VXL8+THu4z6QhZa3qCIecNi0jMsAqvYiQ
+3QqM53MvMl2HMGKWh/o+Sq1NsOyqp1NlwQ+H+lbR2VnO/9hRFCAiKVcz7Y8D1jG1bdbN60o6v5YF
+QomWCanbp0Y7VMJJ65pdHPU8+/isy/8wJK+YGdnO+0UsMgZE+n2sT0XvbgY+o9ZpG07ZUax0io2q
+R8i6iOQppvtcpl4H+4lu/8Tf5xsLE8Je5lq2U7KqeXDN4Tx+P3sYQuJuoKNlnooC7yOXc2xh8ztg
+ByNWCHSg4WqE26VmeztUNohowtdSWnxKqBzcMWPsGB0/g8SPodRM6u/lKGE8vJp6tYol4yZGw5O8
+nsBJa7gIh5Ihmv6QnMzAl4wkl+31Rr8IJWQm5UOc/JaxnrOon6ZV0BGlIQKLefWMvjLfz8ALJCzK
+9g5WZQsL8CBFwH6RlHmxrarC7VQHAy9uHKKa8MbQ4WmeLR0kXmt7c4HDNL8B0eaTjBpaSLsQuJYO
+kU2NBb5gdLxjVB/a6phyHg8peUNbQydmQwfaXXzpyHH+Ow1ylOUAPMD/HwCOB3by/g1mTkvomUZK
+5XnGhiWzPqREhCsPmaOlM/AOzPJ2qmocoKkg2h/h/ZkmXtfpzUadfmjSwf7tRev4JdFdakk8/8Y/
+DDLzLqW1EOGVxktZHQsFW72eZNBMY9Ae+/bSV286SM9cXlakckmpoqF8adrAAsD27cV8b/AKRPxU
+49vLyGMfvCwfveQQzfVJdTtf+PqzvazHy1l22uw3S0WXt/8EGACo+Ydz5XdRYwAAAABJRU5ErkJg
+gg==
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/html5-badge1.png
+
+iVBORw0KGgoAAAANSUhEUgAAAHQAAAAqCAYAAABiHn+gAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjI0QzhFQkUwMjMyQjExRTA5NDQ3OEZCMTE2NzM3RjNFIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjI0QzhFQkUxMjMyQjExRTA5NDQ3OEZCMTE2NzM3RjNFIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjRDOEVCREUyMzJCMTFFMDk0NDc4
+RkIxMTY3MzdGM0UiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjRDOEVCREYyMzJCMTFFMDk0
+NDc4RkIxMTY3MzdGM0UiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz5TnRx4AAANnklEQVR42uxba2wcVxU+d/bp9a7t2HGcOM07
+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
+QmCC
+------=_NextPart_000_6AC3_2101C5FA.5B183909
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.websocket.org/img/cross.png
+
+iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjUyNDZBNDJDQzgwQjExREY5QjM5QzhFRUFDNEJGN0M3IiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjUyNDZBNDJEQzgwQjExREY5QjM5QzhFRUFDNEJGN0M3Ij4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTI0NkE0MkFDODBCMTFERjlCMzlD
+OEVFQUM0QkY3QzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTI0NkE0MkJDODBCMTFERjlC
+MzlDOEVFQUM0QkY3QzciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz6TWdFWAAAESUlEQVR42sxYW0hUQRiePRsb20WPlkQL6Ubg
+gySaQiAI4VuQeEHBJ0HRF9/0QZ+CEnwSwsQHn7z0IARpVhD0piL4UutqVkoaXjIvaO56TWV1mm/W
+OZ6zl3MxlQbG9cz+83/f+f/Zb/4ZG6WUnKTtjIxQ1gnd38f/fOxSejqxORz8k3XbSfxesGLsf/eO
++nt7if/9exJYWdF3nJBA5UePiFxYSOS8PNPkbGYitNrWRhcbGsjezIwyhig409KIhIjcuxeMmtdL
+DlnE/oyOKlFDu+h2k5uPH5PrFRXGxEAoWt+bnaXjWVn0IzNDn3jwgC42NtLdyUmqNw8dNrDFHDEf
+vuBTb17ULzb6++moy8UdfU1PpysdHYYkonXMhQ/48rJUwrclQr9fvqSfHA7uYKqoiAbW109MRnT4
+gC/4hO/fXV3UFKHNwUGFzHRFxT8TCe3wKUgBS5cQ8ouQnhWZUFLACl1TGsPx7GwlTWdFRnSRPmBG
+JOR7+5YbfElNPZU1Y2ZNAQuYwBbjijDO19byz2ulpcQeExOmFwd+P11ubtaMyfn5ERXZ/+YN3WFa
+pGgW0yu5oEBjBwyGRefr6jg2E89jHVp79UrRGd3cl5UpmiLkINRm2+vV2Hx2u2nA54vqV+gUOOBZ
+4kr84kXwjZnM67VbTU1cdVX7GVmor9dI/Ux5uWaOu6OD2GU5qkILTMGBs/Q4nZxlgKXFKPehEUDf
+6Ovj8+aqqzXjv54+NfSH6MEWHPii3hwaUmTd7IIEUGhafL29humM1sX2BC7Sn7ExHinn3bumd33X
+kye2qzk5yjM23SlVulmKyB1WFZhtAhtcpP25Of7gSEqyVLe429s5cBTCWGumSw6BDS7S4dYWf5Cu
+XLFECIC32YINbYjcjepqS8WZwAYXiR4cBAsju91ydbc5MBA+1tdHNtlubsWPwAYXyR4bGxS+9XVL
+ZFY7O+ny8+cRv8NPH0Jq1pfABhfJkZgYzN/srKV6+mdNjaYiRAWpXuQzlZWm/QlscJGcKSnBFT4+
+bu5t2JsfRUAjfkcCqIz5enoIi6CpKAlszsWqMIZuH2rxW2pqChNNCKmuMDJMjTDiz/fcXD643NJC
+jUpRI/GbyMkJs9Hby4AJO3BQCKFkNdpc8abDsmz49rvT02F2iKrR5goOmnpoLDmZf7H07NmZ10JK
+ihkWMIEdVqCtvX6tFGgHW1tnTgoYokAD9v9fwor8n3eRD0zdYxAOced1DIp0YDQ8KP4oKTm1gyJ8
+WT4oqiPljY8PaklmZlQHZjrmwgdPE/Np+SitPjh+u3//+LKBiR5+qkYXBmIubNVCCV9Gc01dx6y0
+tvLrmP2FheOjTWYmuZyREfxfdR2Dtj08THY8nuMCzOXi1zEJVVWGdZLNyg0a6mZfdzfZ+PCBBNbW
+9C+s4uNJzMOHJK64mMQVFp7uhVXEEsTjodtHUVBf6aFdZtFjETzRld5fAQYApEJMi1B4/c4AAAAA
+SUVORK5CYII=
+------=_NextPart_000_6AC3_2101C5FA.5B183909--

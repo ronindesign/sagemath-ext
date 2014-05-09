@@ -1,9 +1,18 @@
 {
-  "name": "SageMath",
+  "manifest_version" : 2,
+  "name": "RSS Fetcher",
   "version": "0.1",
-  "description": "SageMath Extension for Chrome.",
-  "browser_action": {
-    "default_icon": "icon.png"
-  },
-  "manifest_version": 2
+  "description": "Keep up with the latest from Lifehacker.",
+  "homepage_url": "http://lifehacker.com/",
+	"background": {
+    "page" : "background.html" },
+	"permissions": [
+	  "https://cloud.sagemath.com/*",
+	  "http://cloud.sagemath.com/*"
+	],
+	"browser_action": {
+    "default_icon": "icon.png", 
+    "default_title": "Lifehacker Notifier",      
+    "default_popup": "popup.html"       
+  }
 }

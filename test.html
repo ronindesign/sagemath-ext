@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<title>WebSocket Test</title>
+<head>
+<script src='js/jquery-1.10.2.js'></script>
+<script src="jsapi.js"></script>
+<script src="jquery.json-2.2.min.js"></script>
+<script src="jquery.websocket-0.0.1.js"></script>
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+var wsUri = "wss://cloud.sagemath.com/hub/633/q1jxqjfc/websocket";
+var wsMGetStats = '["\\u0000{\\"event\\":\\"get_stats\\",\\"id\\":\\"d9a725a3-b60a-4cc2-b7c7-fcc193ef7898\\"}"]';
+
+var output;
+function init() {
+	// Use $("tabs-1") instead of output
+	output = document.getElementById("output");
+	testWebSocket();
+}
+function testWebSocket() {
+ 	websocket = new WebSocket(wsUri);
+	websocket.onopen = function(evt) {
+		onOpen(evt)
+		}; 
+	websocket.onclose = function(evt) {
+		onClose(evt)
+		}; 
+	websocket.onmessage = function(evt) {
+		onMessage(evt)
+		}; 
+	websocket.onerror = function(evt) {
+		onError(evt)
+		};
+}
+function onOpen(evt) {
+ 	writeToScreen("CONNECTED"); 
+	doSend(wsMGetStats)
+}
+function onClose(evt) {
+ 	writeToScreen("DISCONNECTED"); 
+}
+function onMessage(evt) {
+		//writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data+'</span>');
+	if (evt.data.indexOf("get_stats") != -1) {
+		parse_stats(evt.data)
+		websocket.close();
+	}
+}
+function onError(evt) {
+ 	writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data); 
+}
+function doSend(message) {
+ 	writeToScreen("SENT: " + message); 
+ 	websocket.send(message);
+}
+function writeToScreen(message) {
+ 	var pre = document.createElement("p"); 
+	pre.style.wordWrap = "break-word"; 
+	pre.innerHTML = message; 
+	output.appendChild(pre); 
+}
+function parse_stats(raw) {
+	// Remove: backslash escape character | (null) character "\u0000" | assuming first char is "a", removing
+	var parsed =  raw.replace(/\\"/g, '"').replace(/\\u0000/g, "").slice(3);
+	writeToScreen(parsed);
+	var jParsed = jQuery.parseJSON(parsed.slice(0,parsed.length-2));
+	writeToScreen("Accounts: "+jParsed.stats.accounts);
+	var clients = 0;
+	jQuery.each( jParsed.stats.hub_servers, function( i, val ) {
+		clients += val.clients;
+	});
+writeToScreen("Servers: "+clients);
+}
+
+window.addEventListener("load", init, false);
+</script>  <h2>WebSocket Test</h2>  <div id="output"></div></body></html>

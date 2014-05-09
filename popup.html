@@ -1,0 +1,79 @@
+<html>
+  <head>
+	<meta charset="utf-8">
+	<link href="css/redmond/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/post.css" type="text/css" />
+    <link rel="stylesheet" href="styles/chromepad.css" type="text/css" />
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.js"></script>
+    <script src="scripts/parse.js"></script>
+	<script src="scripts/fetch.js"></script>
+    <script src="jsapi.js"></script>
+    <script src="jquery.json-2.2.min.js"></script>
+    <script src="jquery.websocket-0.0.1.js"></script>
+	<script src="popup.js"></script>
+	<script src="bg_main.js"></script>
+    
+    <style>
+	body{
+		font: 62% "Trebuchet MS", sans-serif;
+		margin: 0 auto;
+		padding 0px;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	</style>
+  </head>
+
+  <body>
+    <div id="popup">
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Stats</a></li>
+            <li><a href="#tabs-2">Search</a></li>
+            <li><a href="#tabs-3">Notes</a></li>
+        </ul>
+        <div id="tabs-1"></div>
+        <div id="tabs-2">Search SageMath Documentation<br/>
+            <form id="sagemath_docsearch" action="http://www.sagemath.org/doc/reference/search.html" method="get" target="_blank">
+            	<input id="autocomplete" title="type &quot;a&quot;" class="ui-autocomplete-input" autocomplete="off" name="q" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+                <button id="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false" type="submit">
+                    <span class="ui-button-text">Search</span>
+                </button>
+            </form>
+        </div>
+        <div id="tabs-3" >
+<textarea id="textarea" style="width:100%;height:250px;clear:both;"></textarea></div>
+    </div>
+</div>
+  </body>
+</html>
