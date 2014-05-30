@@ -1,9 +1,9 @@
 {
   "manifest_version" : 2,
-  "name": "RSS Fetcher",
-  "version": "0.1",
-  "description": "Keep up with the latest from Lifehacker.",
-  "homepage_url": "http://lifehacker.com/",
+  "name": "SageMath Extension",
+  "version": "1.0",
+  "description": "Resource and helper extension for SageMath and SageMath Cloud",
+  "homepage_url": "http://github.com/ronindesign/sagemath-ext",
 	"background": {
     "page" : "background.html" },
 	"permissions": [
@@ -12,7 +12,7 @@
 	],
 	"browser_action": {
     "default_icon": "icon.png", 
-    "default_title": "Lifehacker Notifier",      
+    "default_title": "SageMath Extension",      
     "default_popup": "popup.html"       
   }
 }

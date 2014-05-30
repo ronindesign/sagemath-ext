@@ -1,18 +1,13 @@
 <html>
   <head>
 	<meta charset="utf-8">
-	<link href="css/redmond/jquery-ui-1.10.4.custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/post.css" type="text/css" />
-    <link rel="stylesheet" href="styles/chromepad.css" type="text/css" />
-	<script src="js/jquery-1.10.2.js"></script>
-	<script src="js/jquery-ui-1.10.4.custom.js"></script>
-    <script src="scripts/parse.js"></script>
+	<script src="lib/jquery-1.10.2.js"></script>
+	<script src="lib/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="lib/jquery.json-2.2.min.js"></script>
+    <script src="lib/jquery.websocket-0.0.1.js"></script>
 	<script src="scripts/fetch.js"></script>
-    <script src="jsapi.js"></script>
-    <script src="jquery.json-2.2.min.js"></script>
-    <script src="jquery.websocket-0.0.1.js"></script>
 	<script src="popup.js"></script>
-	<script src="bg_main.js"></script>
+	<link href="styles/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
     
     <style>
 	body{
@@ -20,31 +15,13 @@
 		margin: 0 auto;
 		padding 0px;
 	}
-	.demoHeaders {
-		margin-top: 2em;
+	#popup {
+		width:450px;
+		margin:0 auto;
+		padding:0px;
 	}
-	#dialog-link span.ui-icon {
-		margin: 0 5px 0 0;
-		position: absolute;
-		left: .2em;
-		top: 50%;
-		margin-top: -8px;
-	}
-	#icons {
-		margin: 0;
-		padding: 0;
-	}
-	#icons li {
-		margin: 2px;
-		position: relative;
-		padding: 4px 0;
-		cursor: pointer;
-		float: left;
-		list-style: none;
-	}
-	#icons span.ui-icon {
-		float: left;
-		margin: 0 4px;
+	h3 {
+		margin-top:0;
 	}
 	.fakewindowcontain .ui-widget-overlay {
 		position: absolute;

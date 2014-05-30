@@ -1,5 +1,3 @@
-// JavaScript Document
-
 function load_data(something)
 {
 	xhttp=new XMLHttpRequest();
@@ -8,14 +6,6 @@ function load_data(something)
 	xmlDoc=xhttp.responseXML;
 	document.getElementById("textarea").innerHTML=xmlDoc.getElementsByTagName(something)[0].childNodes[0].nodeValue;	
 }
-
-/*function changepic(img_name1, img_src1, img_name2, img_src2, img_name3, img_src3) 
-{
-//document[img_name].src=img_src;
-document.getElementById(img_name1).style.background='url('+img_src1+')';
-document.getElementById(img_name2).style.background='url('+img_src2+')';
-document.getElementById(img_name3).style.background='url('+img_src3+')';
-}*/
 
 function save_text() 
 {
@@ -151,8 +141,4 @@ $(document).ready(function() {
 	$("#textarea").append("test?");
 	
 	$("#textarea").append(chrome.extension.getViews());
-	
-	/*$(window).on('beforeunload', function() {
-  return 'Your own message goes here...';
-});*/
 });
